@@ -56,6 +56,7 @@ ensure-main:
     fi
 
     # check that main is up to date with upstream main
+    git fetch
     # @{u} refers to upstream branch of current branch
     if [ "$(git rev-parse HEAD)" != "$(git rev-parse @{u})" ]; then \
         echo "Error: Your branch is not up to date with the upstream main branch"; \
