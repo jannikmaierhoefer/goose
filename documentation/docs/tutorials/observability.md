@@ -1,11 +1,11 @@
 ---
 sidebar_position: 3
-title: Observability
+title: Integrate Goose with Langfuse
 ---
 
 # Observability with Langfuse
 
-This guide shows you how to integrate Goose with Langfuse to monitor your Goose requests and understand how the agent is performing.
+This tutorial shows you how to integrate Goose with Langfuse to monitor your Goose requests and understand how the agent is performing.
 
 ## What is Langfuse?
 
