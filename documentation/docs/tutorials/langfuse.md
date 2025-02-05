@@ -6,16 +6,16 @@ description: Integrate Goose with Langfuse to observe performance
 
 This tutorial covers how to integrate Goose with Langfuse to monitor your Goose requests and understand how the agent is performing.
 
-## What is Langfuse?
+## What is Langfuse
 
 [Langfuse](https://langfuse.com/) is an [open-source](https://github.com/langfuse/langfuse) LLM engineering platform that enables teams to collaboratively monitor, evaluate, and debug their LLM applications.
 
 
-## 1. Set up Langfuse
+## Set up Langfuse
 
 Sign up for Langfuse Cloud [here](https://cloud.langfuse.com) or self-host Langfuse [Docker Compose](https://langfuse.com/self-hosting/local) to get your Langfuse API keys.
 
-## 2. Configure Goose to Connect to Langfuse
+## Configure Goose to Connect to Langfuse
 
 Set the environment variables so that Goose (written in Rust) can connect to the Langfuse server.
 
@@ -28,7 +28,7 @@ export LANGFUSE_HOST=https://cloud.langfuse.com # EU data region 🇪🇺
 # https://localhost:3000 if you're self-hosting
 ```
 
-## 3. Run Goose with Langfuse Integration
+## Run Goose with Langfuse Integration
 
 Now, you can run Goose and monitor your AI requests and actions through Langfuse.
 
